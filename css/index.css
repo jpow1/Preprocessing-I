@@ -186,7 +186,7 @@ header .button {
 .introduction {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 .first-section {
