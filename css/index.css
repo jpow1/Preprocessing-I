@@ -154,7 +154,7 @@ nav a {
 header {
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
+  background-color: #dddddd;
 }
 header h1 {
   font-size: 30px;
@@ -170,7 +170,7 @@ header p {
 header .button {
   text-decoration: none;
   padding: 10px;
-  color: lightgray;
+  color: #dddddd;
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
@@ -206,6 +206,12 @@ header .button {
 .first-section li {
   padding: 10px;
 }
+.first-section .article {
+  width: 50%;
+}
+.first-section p {
+  line-height: 1.5;
+}
 .final-section {
   padding: 20px;
   margin-bottom: 20px;
@@ -227,4 +233,37 @@ header .button {
 }
 .final-section tr:nth-child(even) {
   background-color: #dddddd;
+}
+/*.footer1 {
+
+	width: 100%;
+	background-color: #dddddd;
+
+	nav {
+		width: 60%;
+		display:  flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 2%;
+		font-size: 14px;
+	}
+
+	a {
+		color:coral;
+		text-decoration: none;
+		padding: 20px;
+		margin: 0 auto;
+	}
+} */
+.footer {
+  padding: 30px;
+  margin: 30px 0;
+  background-color: #dddddd;
+}
+.footer .address {
+  line-height: 2;
+}
+.footer .copy {
+  text-align: center;
+  padding: 20px;
 }
