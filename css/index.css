@@ -262,8 +262,12 @@ header .button {
 }
 .footer .address {
   line-height: 2;
+  color: coral;
+  font-family: 'Roboto';
 }
 .footer .copy {
   text-align: center;
   padding: 20px;
+  color: coral;
+  font-family: 'Roboto';
 }
