@@ -193,7 +193,7 @@ header .button {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 .first-section h2 {
@@ -205,4 +205,26 @@ header .button {
 }
 .first-section li {
   padding: 10px;
+}
+.final-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.final-section h2 {
+  padding: 20px;
+  font-size: 20px;
+}
+.final-section .table {
+  font-family: 'Roboto';
+  border-collapse: collapse;
+  width: 100%;
+}
+.final-section td,
+.final-section th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+}
+.final-section tr:nth-child(even) {
+  background-color: #dddddd;
 }
